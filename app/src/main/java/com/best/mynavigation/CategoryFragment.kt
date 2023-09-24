@@ -29,7 +29,7 @@ class CategoryFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.btnCategoryLifestyle.setOnClickListener {view ->
+        binding.btnCategoryLifestyle.setOnClickListener { view ->
             val mBundle = Bundle()
             mBundle.putString(EXTRA_NAME, "Lifestyle")
             mBundle.putLong(EXTRA_STOCK, 7)
